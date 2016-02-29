@@ -1,0 +1,35 @@
+body{
+  margin-left: 30px;
+  width: 500px;
+  line-height: 25px;
+}
+
+.header{
+  padding-left: 20px;
+  border-bottom: 2px solid grey;
+}
+
+.foto{
+  text-align: center;
+}
+
+.header h2{
+  text-align: center;
+}
+
+.main{
+  border-bottom: 2px solid grey
+}
+
+.main p{
+  padding-left: 20px;
+}
+
+.contacts{
+  padding-left: 20px;
+  border-bottom: 2px solid grey
+}
+
+.footer{
+  padding-left: 20px;
+}
