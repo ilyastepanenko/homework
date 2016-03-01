@@ -1,7 +1,12 @@
+body {
+  color:#EFEFEF;
+}
+
 .mainbox{
   margin: auto;
   width: 500px;
   line-height: 25px;
+  color: #FFFFFF;
 }
 
 .firstbox{
