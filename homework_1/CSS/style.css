@@ -12,6 +12,8 @@ body {
 }
 
 .firstbox{
+  margin-left: 40px;
+  margin-right: 40px;
   padding-left: 20px;
   border-bottom: 2px solid #DDDDDD;
 }
@@ -25,6 +27,8 @@ body {
 }
 
 .main{
+  margin-left: 40px;
+  margin-right: 40px;
   border-bottom: 2px solid #DDDDDD;
 }
 
@@ -33,10 +37,14 @@ body {
 }
 
 .contacts{
+  margin-left: 40px;
+  margin-right: 40px;
   padding-left: 20px;
   border-bottom: 2px solid #DDDDDD;
 }
 
 .lastbox{
+  margin-left: 40px;
+  margin-right: 40px;
   padding-left: 20px;
 }
