@@ -1,7 +1,14 @@
+body {
+  background-color: #EFEFEF;
+}
+
 .mainbox{
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: auto;
   width: 500px;
   line-height: 25px;
+  background-color: #FFFFFF;
 }
 
 .firstbox{
