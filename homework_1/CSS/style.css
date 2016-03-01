@@ -14,7 +14,7 @@ body {
 .firstbox{
   margin-left: 40px;
   margin-right: 40px;
-  padding-left: 20px;
+  padding-left: 10px;
   border-bottom: 2px solid #DDDDDD;
 }
 
@@ -33,13 +33,13 @@ body {
 }
 
 .main p{
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .contacts{
   margin-left: 40px;
   margin-right: 40px;
-  padding-left: 20px;
+  padding-left: 10px;
   border-bottom: 2px solid #DDDDDD;
 }
 
