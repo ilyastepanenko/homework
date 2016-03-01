@@ -6,7 +6,7 @@
 
 .firstbox{
   padding-left: 20px;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #DDDDDD;
 }
 
 .foto{
@@ -18,7 +18,7 @@
 }
 
 .main{
-  border-bottom: 2px solid grey
+  border-bottom: 2px solid #DDDDDD;
 }
 
 .main p{
@@ -27,7 +27,7 @@
 
 .contacts{
   padding-left: 20px;
-  border-bottom: 2px solid grey
+  border-bottom: 2px solid #DDDDDD;
 }
 
 .lastbox{
