@@ -1,10 +1,11 @@
-body{
+.mainbox{
   margin-left: 30px;
-  width: 500px;
+  width: 100%;
   line-height: 25px;
+  text-align:center;
 }
 
-.header{
+.firstbox{
   padding-left: 20px;
   border-bottom: 2px solid grey;
 }
@@ -13,7 +14,7 @@ body{
   text-align: center;
 }
 
-.header h2{
+.firstbox h2{
   text-align: center;
 }
 
@@ -30,6 +31,6 @@ body{
   border-bottom: 2px solid grey
 }
 
-.footer{
+.lastbox{
   padding-left: 20px;
 }
