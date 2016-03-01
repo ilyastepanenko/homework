@@ -11,7 +11,7 @@ body {
   background-color: #FFFFFF;
 }
 
-div {
+.box {
   margin-left: 40px;
   margin-right: 40px;
   padding-left: 10px;
