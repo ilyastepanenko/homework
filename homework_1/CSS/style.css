@@ -11,7 +11,7 @@ body {
   background-color: #FFFFFF;
 }
 
-.firstbox{
+div {
   margin-left: 40px;
   margin-right: 40px;
   padding-left: 10px;
@@ -22,29 +22,10 @@ body {
   text-align: center;
 }
 
-.firstbox h2{
+div h2{
   text-align: center;
 }
 
-.main{
-  margin-left: 40px;
-  margin-right: 40px;
-  border-bottom: 2px solid #DDDDDD;
-}
-
-.main p{
-  padding-left: 10px;
-}
-
-.contacts{
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-left: 10px;
-  border-bottom: 2px solid #DDDDDD;
-}
-
-.lastbox{
-  margin-left: 40px;
-  margin-right: 40px;
+div p{
   padding-left: 10px;
 }
