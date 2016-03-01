@@ -26,6 +26,11 @@ body {
   text-align: center;
 }
 
+.list{
+  padding: 0;
+  margin-left: 25px;
+}
+
 .lastbox{
   margin-left: 40px;
   margin-right: 40px;
