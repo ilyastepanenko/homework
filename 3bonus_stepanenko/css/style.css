@@ -1,19 +1,17 @@
 body {
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
-  width: 960px;
-  height: 883px;
 }
 
 header {
   padding-top: 56px;
   padding-left: 70px;
+  height: 203px;
+  width: 960px;
 }
 
 .logo {
   float: left;
-  width: 263px;
-  height: 147px;
 }
 
 .contacts {
@@ -35,7 +33,7 @@ header {
 
 .container_top {
   margin-left: 56px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-right: 70px;
   text-align: center;
 }

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+
 body {
   background-color: #f9f9f9;
 }
@@ -8,6 +10,7 @@ body {
   padding-bottom: 60px;
   margin: auto;
   background-color: #ffffff;
+  border: 1px solid #dbdbdb;
 }
 
 .header {
@@ -36,10 +39,11 @@ body {
   text-shadow: #606060 1px 1px;
 }
 
-.active_menu:hover {
+.menu li:active {
   background-color: #3e3e3e;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
+  text-align: center;
 }
 
 .container {
@@ -50,23 +54,26 @@ body {
 .sidebar {
   float: left;
   width: 238px;
+  border-left: 1px solid #c8c8c8;
+  border-top: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
 }
 
 .sidebar ul li {
   padding-left: 23px;
-  border: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 38px;
 }
 
 .sidebar ul li a {
-  color: #2c2c2c;
+  color: #656363;
   text-decoration: none;
 }
 
-.active_list:hover {
-  padding-left: 35px;
+.sidebar a:hover {
+  padding-left: 12px;
   background-color: #f9f9f9;
 }
 
@@ -113,6 +120,7 @@ body {
 }
 
 .copy {
+  padding-right: 26px;
   text-align: right;
   color: #2c2c2c;
 }
