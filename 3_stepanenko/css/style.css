@@ -26,9 +26,14 @@ body {
 
 .menu li {
   display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  border-left: 1px solid #4e4d4d;
+  border-right: 1px solid #4e4d4d;
   }
 
 .menu li a{
+  display: block;
   padding-left: 25px;
   padding-right: 42px;
   font-family: 'Open Sans', sans-serif;
