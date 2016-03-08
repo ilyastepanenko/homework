@@ -74,13 +74,10 @@ h3 {
   border-bottom: 1px solid #000000;
   font-family: 'Tahoma', sans-serif;
   font-size: 14px;
-}
-
-/*.main_box {
   -webkit-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
   -moz-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
   box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
-}*/
+}
 
 .container ul:after {
   display: block;
@@ -102,6 +99,10 @@ h3 {
   display: block;
   text-decoration: none;
   color: #ffffff;
+}
+
+.menu li:nth-child(6) {
+  text-align: center;
 }
 
 .submenu {
@@ -127,10 +128,16 @@ h3 {
 
 .menu>li:hover>.submenu {
   display: block;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
+  box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
 }
 
 .menu .active {
   display: block;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
+  box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
 }
 
 .content {
