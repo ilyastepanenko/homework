@@ -31,8 +31,11 @@ body {
 
 .menu_button a{
   display: block;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 100%;
   width: 100%;
+  outline: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 14.67px;
   color:#ffffff;
@@ -67,7 +70,6 @@ body {
 }
 
 .sidebar_button {
-  padding-left: 23px;
   border-bottom: 1px solid #c8c8c8;
   font-family: 'Open Sans', sans-serif;
   font-size: 13.33px;
@@ -75,7 +77,9 @@ body {
 }
 
 .sidebar_button a {
+  outline: none;
   display: block;
+  padding-left: 23px;
   height: 100%;
   width: 100%;
   color: #656363;
@@ -83,12 +87,12 @@ body {
 }
 
 .active_sidebar {
-  padding-left: 35px;
+  padding-left: 12px;
   background-color: #f9f9f9;
 }
 
 .sidebar_button:hover {
-  padding-left: 35px;
+  padding-left: 12px;
   background-color: #f9f9f9;
 }
 
@@ -125,6 +129,7 @@ body {
   float: left;
 }
 .footer li a {
+  outline: none;
   display: block;
   height: 100%;
   width: 100%;
