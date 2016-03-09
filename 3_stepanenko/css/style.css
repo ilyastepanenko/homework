@@ -16,7 +16,7 @@ body {
   margin: 50px 48px 60px 46px;
 }
 
-.menus {
+.nav {
   margin-top: 40px;
   background-color: #4e4d4d;
 }
@@ -40,7 +40,7 @@ body {
   border-right: 1px solid #4e4d4d;
 }
 
-.menus .active_menu {
+.nav .active_menu {
   background-color: #3e3e3e;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
