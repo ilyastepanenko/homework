@@ -23,8 +23,6 @@ body {
 
 .menu_button {
   display: inline-block;
-  padding-left: 40px;
-  padding-right: 40px;
   border-left: 1px solid #4e4d4d;
   border-right: 1px solid #4e4d4d;
 }
