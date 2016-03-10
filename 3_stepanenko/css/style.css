@@ -41,13 +41,19 @@ body {
   border-right: 1px solid #4e4d4d;
 }
 
-.nav .active_menu {
+.nav .active_menu a{
   background-color: #3e3e3e;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
 }
 
 .menu:hover a{
+  background-color: #3e3e3e;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+hover:not(.active_menu) a{
   background-color: #3e3e3e;
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
@@ -126,12 +132,13 @@ body {
 
 .footer li {
   float: left;
+  margin-right: 40px;
 }
 .footer li a {
   outline: none;
   display: block;
   padding-left: 23px;
-  padding-right: 45px;
+  padding-right: 23px;
   text-decoration: none;
   color: #2c2c2c;
 }
