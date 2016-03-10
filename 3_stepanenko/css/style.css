@@ -80,14 +80,18 @@ body {
   text-decoration: none;
 }
 
-.active_sidebar {
-  padding-left: 12px;
+.sidebar .active_sidebar a{
+  display: block;
+  padding-left: 35px;
   background-color: #f9f9f9;
+  color: #2c2c2c;
 }
 
-.sidebar_button:hover {
-  padding-left: 12px;
+.sidebar_button:hover a{
+  display: block;
+  padding-left: 35px;
   background-color: #f9f9f9;
+  color: #2c2c2c;
 }
 
 .content {
