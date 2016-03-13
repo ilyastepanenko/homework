@@ -128,16 +128,16 @@ h3 {
   color: #fffbfb;
 }
 
-.input_form::-webkit-input-placeholder{
+.input_form::-webkit-input-placeholder {
   color: #cccccc;
 }
 
-.input_form:active {
+.input_form:focus {
   background-image: linear-gradient(to top, #1f5284, #1e4b76);
   box-shadow: 0 0 10px #4784ab;
 }
 
-.input_form:active::-webkit-input-placeholder {
+.input_form:focus::-webkit-input-placeholder {
   color: #fffbfb;
 }
 
