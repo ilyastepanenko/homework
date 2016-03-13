@@ -93,7 +93,6 @@ h4 {
   -webkit-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
   -moz-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
   box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
-  z-index: 999;
 }
 
 .menu li {
@@ -110,6 +109,7 @@ h4 {
   display: block;
   text-decoration: none;
   color: #ffffff;
+  padding-bottom: 6.5px;
 }
 
 .menu li:nth-child(6) {
@@ -117,16 +117,16 @@ h4 {
 }
 
 .submenu {
+  border-top: 1px solid #000000;
   display: none;
   position: absolute;
   width: 100%;
-  top: 33px;
   left: 0;
   background-color: #343434;
 }
 
 .submenu>li {
-  display: block;
+  float: none;
   text-align: left;
 }
 
@@ -138,14 +138,7 @@ h4 {
   line-height: 22px;
 }
 
-.menu>li:hover>.submenu {
-  display: block;
-  -webkit-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
-  -moz-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
-  box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
-}
-
-.menu .active {
+li:hover>.submenu {
   display: block;
   -webkit-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
   -moz-box-shadow: 0px 3px 3px 0px rgba(79,79,80,1);
