@@ -141,15 +141,6 @@ h3 {
   color: #fffbfb;
 }
 
-.active {
-  background-image: linear-gradient(to top, #1f5284, #1e4b76);
-  box-shadow: 0 0 10px #4784ab;
-}
-
-.active::-webkit-input-placeholder {
-  color: #fffbfb;
-}
-
 .checkbox {
   text-align: left;
   margin-left: 135px;
