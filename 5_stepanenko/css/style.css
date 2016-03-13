@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+
+.header {
+  height: 35px;
+  width: 100%;
+  background-color: #075190;
+  font-size: 14px;
+}
+
+.header>p {
+  float: right;
+  color: #fefefe;
+}
+
+.login>a {
+  color: #fefefe;
+}
+
+.login {
+  margin-right: 20px;
+  padding: 8.5px 12px;
+  background-image: linear-gradient(to top, #2e7ac4, #51b1dc);
+  border-bottom: 1px solid #4299d2;
+  border-left: 1px solid #4299d2;
+  border-right: 1px solid #4299d2;
+}
+
+.login>a:hover {
+  text-decoration: none;
+}
+
+.header p:nth-child(2) {
+  padding: 9px 17px 9px 1px;
+}
+
+.header>div {
+  float: right;
+}
+
+.flag {
+  padding: 6px 9px 7px 19px;
+}
+
+.line {
+  padding: 2px 0px 3px;
+}
+
+.menu>li {
+  float: right;
+  list-style: none;
+  text-align: center;
+}
+
+.menu>li>a {
+  display: block;
+  text-decoration: none;
+  color: #60b5ed;
+  padding: 9px 12px;
+}
+
+.menu .active {
+  background-color: #4eabda;
+  color: #ffffff;
+}
+
+.menu>li>a:hover {
+  background-color: #4eabda;
+  color: #ffffff;
+}
+
+.wrapper {
+  width: 560px;
+  height: 613px;
+  margin-top: 213px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 202px;
+  clear: both;
+  background-image: url(../img/form_background.png);
+  text-align: center;
+}
+
+h3 {
+  padding-top: 22px;
+  padding-bottom: 21px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.fb_login {
+  margin-top: 36px;
+  margin-bottom: 32px;
+}
+
+.dividing_text {
+  margin-top: -14px;
+  color: white;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.form>div {
+  margin-bottom: 18px;
+}
+.input_form {
+  width: 276px;
+  height: 35px;
+  padding-left: 19px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #494949;
+  background-image: linear-gradient(to top, #101010, #141414);
+  font-size: 14px;
+  color: #fffbfb;
+}
+
+.input_form::-webkit-input-placeholder{
+  color: #cccccc;
+}
+
+.input_form:active {
+  background-image: linear-gradient(to top, #1f5284, #1e4b76);
+  box-shadow: 0 0 10px #4784ab;
+}
+
+.input_form:active::-webkit-input-placeholder {
+  color: #fffbfb;
+}
+
+.active {
+  background-image: linear-gradient(to top, #1f5284, #1e4b76);
+  box-shadow: 0 0 10px #4784ab;
+}
+
+.active::-webkit-input-placeholder {
+  color: #fffbfb;
+}
+
+.checkbox {
+  text-align: left;
+  margin-left: 135px;
+}
+
+label {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.button {
+  width: 149px;
+  height: 32px;
+  background-image: linear-gradient(to top, #2e7ac4, #50aedb);
+  border: none;
+  font-size: 14px;
+  color: #ffffff;
+  box-shadow: 0 -1px 3px #66c5e5;
+}
+
+.form p {
+  width: 309px;
+  margin-top: -10px;
+  margin-left: 123px;
+  font-size: 11px;
+  color: #cccccc;
+}
