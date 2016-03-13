@@ -7,6 +7,7 @@
 body {
   background-image: url(../img/background.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -85,7 +86,7 @@ body {
   margin-right: auto;
   margin-bottom: 202px;
   clear: both;
-  background-image: url(../img/form_background.png);
+  /*background-color: rgba(0, 0, 0, 0.63);*/
   text-align: center;
 }
 
@@ -96,10 +97,16 @@ h3 {
   font-weight: normal;
   color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.form_wrapper {
+  background-color: rgba(0, 0, 0, 0.63)
 }
 
 .fb_login {
-  margin-top: 36px;
+  margin-top: 1px;
+  padding-top: 35px;
   margin-bottom: 32px;
 }
 
@@ -165,6 +172,7 @@ label {
   width: 309px;
   margin-top: -10px;
   margin-left: 123px;
+  padding-bottom: 21px;
   font-size: 11px;
   color: #cccccc;
 }
