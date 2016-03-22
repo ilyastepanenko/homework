@@ -27,46 +27,48 @@
         <li><a href="#">Meu YouBike</a></li>
       </ul>
     </header>
-    <div id="wrapper">
-      <h3>
-        Cadastre-se
-      </h3>
-      <div class="form_wrapper">
-        <div class="fb_login">
-          <a href="#">
-            <img src="img/fb_login.png" alt="Facebook" />
-          </a>
+    <div class="wrapper">
+      <div class="main_wrapper">
+        <h3>
+          Cadastre-se
+        </h3>
+        <div class="form_wrapper">
+          <div class="fb_login">
+            <a href="#">
+              <img src="img/fb_login.png" alt="Facebook" />
+            </a>
+          </div>
+          <img class="dividing_line" src="img/form_line.png" alt="" />
+          <p class="dividing_text">OU</p>
+          <form class="form" action="index.html" method="post">
+            <div>
+              <input class="input_form" type="text" name="first_name" placeholder="First Name">
+            </div>
+            <div>
+              <input class="input_form" type="text" name="last_name" placeholder="Last Name">
+            </div>
+            <div>
+              <input class="input_form" type="email" name="email" placeholder="Email Address">
+            </div>
+            <div>
+              <input class="input_form" type="password" name="password" placeholder="Choose Password">
+            </div>
+            <div>
+              <input class="input_form" type="password" name="password_revise" placeholder="Password Confirm">
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="updates_subscribe" id="updates_subscribe">
+              <label for="updates_subscribe">Send me Youbike updates and tips</label>
+            </div>
+            <div>
+              <input class="button" type="submit" name="sublit" value="Create my Account">
+            </div>
+            <p>
+              By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.
+            </p>
+          </form>
         </div>
-        <img class="dividing_line" src="img/form_line.png" alt="" />
-        <p class="dividing_text">OU</p>
-        <form class="form" action="index.html" method="post">
-          <div>
-            <input class="input_form" type="text" name="first_name" placeholder="First Name">
-          </div>
-          <div>
-            <input class="input_form" type="text" name="last_name" placeholder="Last Name">
-          </div>
-          <div>
-            <input class="input_form" type="email" name="email" placeholder="Email Address">
-          </div>
-          <div>
-            <input class="input_form" type="password" name="password" placeholder="Choose Password">
-          </div>
-          <div>
-            <input class="input_form" type="password" name="password_revise" placeholder="Password Confirm">
-          </div>
-          <div class="checkbox">
-            <input type="checkbox" name="updates_subscribe" id="updates_subscribe">
-            <label for="updates_subscribe">Send me Youbike updates and tips</label>
-          </div>
-          <div>
-            <input class="button" type="submit" name="sublit" value="Create my Account">
-          </div>
-          <p>
-            By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.
-          </p>
-        </form>
-      </div>
+      <div>
     </div>
   </body>
 </html>
