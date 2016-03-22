@@ -95,19 +95,6 @@ body {
   padding-bottom: 15%;
 }
 
-.main_wrapper {
-  width: 560px;
-  height: 613px;
-  position: absolute;
-  top: 30px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  margin-top: 15%;
-  margin-bottom: 15%;
-}
-
 h3 {
   padding-top: 22px;
   padding-bottom: 21px;
