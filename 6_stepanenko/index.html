@@ -6,49 +6,127 @@
     <title>ZAZOR</title>
   </head>
   <body>
-    <header>
-      <div class="telephone">
-        <p>
-          (044)123-45-67 (044)567-89-10
-        </p>
-      </div>
-      <div class="autoriz">
-        <li>
-          <input class="login_form" type="text" name="login" placeholder="логин">
-        </li>
-        <li>
-          <input class="login_form" type="password" name="password" placeholder="пароль">
-        </li>
-        <li>
-          <a href="#">вход</a>
-        </li>
-        <li>
-          <a href="#">регистрация</a>
-        </li>
-        <li>
-          <a href="#">забыли пароль?</a>
-        </li>
-      </div>
-      <div class="navi">
-        <a href="#"><img src="img/home.png" alt="home"></a>
-        <a href="#"><img src="img/site_map.png" alt="site map"></a>
-        <a href="#"><img src="img/letter.png" alt="letter"></a>
-      </div>
-      <div class="logo_img">
-        <a href="#"><img src="img/logo_img.png" alt="Zzazor"/></a>
-      </div>
-      <ul class="menu">
-        <li><a href="#">О КОМПАНИИ</a></li>
-        <li><a href="#">ОПЛАТА</a></li>
-        <li><a href="#">ДОСТАВКА</a></li>
-        <li><a href="#">СТАТЬИ</a></li>
-        <li><a href="#">КОНТАКТЫ</a></li>
-      </ul>
-      <ul class="koshyk">
-        <li>товаров:</li>
-        <li>на сумму:</li>
-      </ul>
-    </header>
+    <div class="wrapper">
+      <header>
+        <ul class="topinfo">
+          <li class="telephone">
+            <p>
+              (044)123-45-67 (044)567-89-10
+            </p>
+          </li>
+          <li class="form">
+            <ul>
+              <li>
+                <input class="login_form" type="text" name="login" placeholder="логин">
+              </li>
+              <li>
+                <input class="login_form" type="password" name="password" placeholder="пароль">
+              </li>
+              <li>
+                <a href="#">вход</a>
+              </li>
+              <li>
+                <a href="#">регистрация</a>
+              </li>
+              <li>
+                <a href="#">забыли пароль?</a>
+              </li>
+            </ul>
+          </li>
+          <li id="navi">
+            <ul>
+              <a href="#"><img src="img/home.png" alt="home"></a>
+              <a href="#"><img src="img/site_map.png" alt="site map"></a>
+              <a href="#"><img src="img/letter.png" alt="letter"></a>
+            </ul>
+          </li>
+        </ul>
+        <div class="logo">
+          <a href="#"><img src="img/logo_img.png" alt="Zzazor"/></a>
+        </div>
+      </header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">О КОМПАНИ</a></li>
+          <li><a href="#">ОПЛАТА</a></li>
+          <li><a href="#">ДОСТАВКА</a></li>
+          <li><a href="#">СТАТЬИ</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+        </ul>
+        <ul class="koshyk">
+          <li>товаров: <span>0</span></li>
+          <li>на сумму: <span>0,00 грн</span></li>
+        </ul>
+      </nav>
+      <section class="forms">
 
+      </section>
+      <section class="content">
+        <div class="leftbar">
+          <ul>
+            <li class="sidebar_head"><a href="#">КАТАЛОГ ПРОДУКЦИИ:</a></li>
+              <li class="sidebar_item">
+                <a href="#">ШИНЫ</a>
+                <ul>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 1</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 2</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 3</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 4</a></li>
+                </ul>
+              </li>
+              <li class="sidebar_item">
+                <a href="#">ДИСКИ</a>
+                <ul>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 1</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 2</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 3</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 4</a></li>
+                </ul>
+              </li>
+              <li class="sidebar_item">
+                <a href="#">БОЛТЫ</a>
+                <ul>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 1</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 2</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 3</a></li>
+                  <li class="leftbar_subitem"><a href="">НАИМЕНОВАНИЕ 4</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+        <div class="catalog">
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+        </div>
+        <div class="rightbar">
+          <ul>
+            <li class="sidebar_head"><a href="#">БРЕНДЫ</a></li>
+            <li class="sidebar_item">
+              <a href="#">ШИНЫ</a>
+              <ul>
+                <li class="rightbar_subitem"><a href="#">БРЕНД 1</a></li>
+                <li class="rightbar_subitem"><a href="#">БРЕНД 2</a></li>
+                <li class="rightbar_subitem"><a href="#">БРЕНД 3</a></li>
+              </ul>
+            </li>
+            <li class="sidebar_item">
+              <a href="#">ДИСКИ</a>
+              <ul>
+                <li class="rightbar_subitem"><a href="#">БРЕНД 1</a></li>
+                <li class="rightbar_subitem"><a href="#">БРЕНД 2</a></li>
+                <li class="rightbar_subitem"><a href="#">БРЕНД 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
