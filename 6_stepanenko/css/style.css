@@ -768,6 +768,10 @@ figcaption {
   text-align: center;
 }
 
+figure p {
+  text-align: center;
+}
+
 .content_foto {
   width: 136px;
   height: 127px;
