@@ -1,0 +1,367 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+  .header {
+    padding-bottom: 100px;
+  }
+
+  .slider__text {
+    float: left;
+    margin-left: 35px;
+    /*position: relative;*/
+  }
+
+  .iphone {
+    display: block;
+    float: right;
+    width: 185px;
+    position: relative;
+    top: -100px;
+    right: 35px;
+  }
+
+  .iphone img {
+    width: 100%;
+    height: auto;
+  }
+
+  .slider {
+    padding-top: 96px;
+    padding-bottom: 147px;
+    background-color: rgba(0,0,0,.2);
+  }
+
+  .slider::after {
+    top: 260px;
+  }
+
+  .slider__text::after {
+    right: 8px;
+  }
+
+  .slider .about__hidden-part1 {
+    display: inline;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+  }
+
+  .about__hidden-part2 {
+    display: inline;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+  }
+
+  .testimonial__text .about__hidden-part1 {
+    display: inline;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    color: #454545;
+  }
+
+  .testimonial__text .about__hidden-part2 {
+    display: inline;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    color: #454545;
+  }
+
+  .blog__subtitle .about__hidden-part1 {
+    display: inline;
+    font-family: 'Open Sans Extrabold', Arial, sans-serif;
+    color: #454545;
+  }
+
+  .blog__date .about__hidden-part1, .blog__date .about__hidden-part2 {
+    display: inline;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    color: #454545;
+  }
+
+  .brands__link {
+    width: 25%;
+  }
+
+  .news {
+    display: block;
+    padding-top: 23px;
+    padding-bottom: 87px;
+    border-top: 1px solid #d8d8d8;
+  }
+
+  .news__item {
+    width: 90%;
+    margin-top: 60px;
+    padding: 0 2%;
+  }
+
+  .news__header {
+    font-family: 'League Gothic', Arial, Tahoma, sans-serif;
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .news__text {
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .news__background {
+    background-color: #ececec;
+  }
+
+  .fmenu {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .fmenu__item {
+    display: inline-block;
+    text-align: center;
+    margin-left: -3px;
+  }
+
+  .fmenu__link {
+    display: block;
+    padding: 0 13px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+  .logo {
+    padding-left: 3%;
+    text-align: left;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hmenu {
+    display: block;
+    padding-left: 2.5%;
+    margin-bottom: 80px;
+  }
+
+  .hmenu__item {
+    float: left;
+    margin-right: 40px;
+  }
+
+  .hmenu__link {
+    display: block;
+    text-decoration: none;
+    padding: 8px 7px 0px 5px;
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .hmenu__link:hover {
+    border-bottom: 2px solid #edbfff;
+  }
+
+  .slider {
+    padding-top: 85px;
+    padding-bottom: 180px;
+  }
+
+  .slider__text {
+    text-align: left;
+    width: 268px;
+    margin-top: -35px;
+    margin-left: 55px;
+  }
+
+  .slider::after {
+    left: 85%;
+    top: 300px;
+  }
+
+  .slider__subtitle {
+    padding-left: 0;
+    margin-top: 18px 0;
+  }
+
+  .slider__subtext {
+    display: block;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    font-size: 16px;
+    color: #d8d8d8;
+    line-height: 24px;
+  }
+
+  .about {
+    width: 25%;
+    display: inline-block;
+  }
+
+  .about .about__hidden-part2 {
+    display: none;
+  }
+
+
+  .about__text {
+    width: 160px;
+  }
+
+  .about__button {
+    margin-right: 12px;
+  }
+
+  .third-block {
+    width: 94%;
+  }
+
+  .testimonial__block, .blog {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+  }
+
+  .testimonial__block {
+    margin-right: 55px;
+  }
+
+  .testimonial__block .about__hidden-part2 {
+    display: none;
+  }
+
+  .blog__date .about__hidden-part2 {
+    display: none;
+  }
+
+  .brands__link {
+    width: 16%;
+  }
+
+  .news {
+    text-align: center;
+  }
+
+  .news__item {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .fmenu {
+    float: left;
+    padding-left: 20px;
+  }
+
+  .copyright {
+    float: right;
+    padding-right: 20px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 960px) {
+
+  .logo {
+    float: left;
+  }
+
+  .hmenu {
+    float: right;
+  }
+
+  .slider {
+    margin-top: 172px;
+    clear: both;
+  }
+
+  .slider__text {
+    width: 500px;
+  }
+
+  .slider__subtext2 {
+    display: inline;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+    font-size: 16px;
+    color: #d8d8d8;
+    line-height: 24px;
+  }
+
+  .about .about__hidden-part2 {
+    display: inline;
+  }
+
+  .about__text {
+    width: 100%;
+  }
+
+  .testimonial::after {
+    content: '';
+    position: absolute;
+    right: 40px;
+    bottom: -20px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 17px 20px 3px 0px;
+    border-color: #fff transparent transparent transparent;
+    transform: rotate(90deg);
+  }
+
+  .news .pingbull, .news .comments {
+    display: inline-block;
+  }
+
+  .pingbull {
+    margin-top: 54px;
+  }
+
+  .pingbull .news__header {
+    margin-bottom: 11px;
+    font-family: 'League Gothic', Arial, Tahoma, sans-serif;
+    font-size: 48px;
+  }
+
+  .pingbull .news__header span {
+    color: #b9b9b9;
+  }
+
+  .pingbull .news__subtitle {
+    margin-bottom: 8px;
+    font-family: Georgia, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #c5c5c5;
+    text-shadow: 1px 1px #fff;
+  }
+
+  .news .hidden {
+    display: none;
+  }
+
+  .news__item:last-child span {
+    font-family: 'Open Sans Light', Arial, sans-serif;
+  }
+
+  .footer {
+    padding-bottom: 60px;
+  }
+
+  .testimonial__block .about__hidden-part2,
+  .blog__date .about__hidden-part2 {
+    display: inline;
+  }
+
+  .copyright {
+    clear: none;
+    float: right;
+  }
+}
