@@ -1,0 +1,23 @@
+.wrapper {
+  border: 1px solid #000;
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.checkbox {
+  margin-left: 80px;
+}
+
+h3 {
+  margin-left: 30px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  border: 1px solid #000;
+}

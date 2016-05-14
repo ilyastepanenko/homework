@@ -29,8 +29,8 @@ var app = {
     for (var i = 0; i < questionsAmount; i++) {
 
       this.createElement({
-        tagName: 'h2',
-        content: 'Вопрос №' + (i + 1),
+        tagName: 'h3',
+        content: (i + 1) + '.  ' + 'Вопрос №' + (i + 1),
         parentElement: form
       });
 
@@ -38,6 +38,7 @@ var app = {
 
         var label = this.createElement({
           tagName: 'label',
+          className: 'checkbox',
           content: 'Вариант ответа №' + (j + 1),
           parentElement: form
         });
@@ -57,23 +58,35 @@ var app = {
 };
 
 var body = document.querySelector('body');
+body.className = 'container';
+
+var wrapper = app.createElement({
+  tagName: 'div',
+  className: 'wrapper',
+  parentElement: body
+});
+
+var header = app.createElement({
+  tagName: 'header',
+  parentElement: wrapper
+});
 
 app.createElement({
   tagName: 'h1',
   content: 'Тест по програмированию',
-  parentElement: body
+  parentElement: header
 });
 
 var form = app.createElement({
   tagName: 'form',
-  parentElement: body
+  parentElement: wrapper
 });
 
 app.generateQuestions(3, 3);
 
 app.createElement({
-  tagName: 'input',
-  inputType: 'submit',
+  tagName: 'button',
+  className: 'btn btn-default',
   content: 'Проверить мои результаты',
   parentElement: form
 });
